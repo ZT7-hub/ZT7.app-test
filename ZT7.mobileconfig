@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
+  <dict>
     <key>PayloadContent</key>
     <array>
-        <dict>
-            <key>FullScreen</key>
-            <true/>
-            <key>Label</key>
-            <string>ZT7</string>
-            <key>PayloadDisplayName</key>
-            <string>ZT7 Web App</string>
-            <key>PayloadIdentifier</key>
-            <string>com.zt7.webclip</string>
-            <key>PayloadType</key>
-            <string>com.apple.webClip.managed</string>
-            <key>PayloadUUID</key>
-            <string>00000000-1111-2222-3333-444444444444</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>Precomposed</key>
-            <true/>
-            <key>URL</key>
-            <string>https://zt7-hub.github.io/ZT7-APP/</string>
-            <key>Icon</key>
-            <data>
-                (هنا نحط صورة الأيقونة بصيغة base64، أقدر أجهزها لك لو تبغى)
-            </data>
-        </dict>
+      <dict>
+        <key>FullScreen</key>
+        <true/>
+        <key>IsRemovable</key>
+        <true/>
+        <key>Label</key>
+        <string>ZT7-HACKS</string>
+        <key>PayloadDescription</key>
+        <string>Web Clip</string>
+        <key>PayloadDisplayName</key>
+        <string>ZT7-HACKS</string>
+        <key>PayloadIdentifier</key>
+        <string>com.zt7.hacks.webclip</string>
+        <key>PayloadOrganization</key>
+        <string>ZT7</string>
+        <key>PayloadType</key>
+        <string>com.apple.webClip.managed</string>
+        <key>PayloadUUID</key>
+        <string>1A2B3C4D-5E6F-7A8B-9C0D-1E2F3A4B5C6D</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>Precomposed</key>
+        <true/>
+        <key>URL</key>
+        <string>https://zt7-hub.github.io/ZT7.app-test/</string>
+      </dict>
     </array>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-    <key>PayloadIdentifier</key>
-    <string>com.zt7.mobileconfig</string>
-    <key>PayloadUUID</key>
-    <string>55555555-6666-7777-8888-999999999999</string>
     <key>PayloadDisplayName</key>
-    <string>ZT7 Web App Config</string>
-    <key>PayloadDescription</key>
-    <string>إضافة ZT7 كتطبيق على الشاشة الرئيسية</string>
+    <string>ZT7-HACKS Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.zt7.hacks.profile</string>
     <key>PayloadOrganization</key>
     <string>ZT7</string>
-</dict>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>ABCDEF12-3456-7890-ABCD-EF1234567890</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
 </plist>
